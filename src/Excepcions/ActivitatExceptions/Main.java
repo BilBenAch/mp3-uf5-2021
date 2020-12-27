@@ -132,6 +132,10 @@ public class Main {
                        banc.eliminarCompteEstalvi(numeroCompte);
                     }
                     break;
+                default:
+                    System.out.println();
+                    System.out.println("Opció equivocada, ha de ser entre 1 y 8");
+                    System.out.println();
             }
         }
     }
